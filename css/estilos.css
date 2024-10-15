@@ -1,0 +1,48 @@
+body {
+    background-image: url(/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(251, 248, 144, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+h1 {
+    text-align: center;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    z-index: 1;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f3bb00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #fbff00;
+}
